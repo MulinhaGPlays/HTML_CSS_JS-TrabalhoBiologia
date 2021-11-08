@@ -1,7 +1,7 @@
 @keyframes up {
     from {
-        top: -10%
+        top: 100%
     } to {
-        top: 100%;
+        top: -10%;
     }
 }

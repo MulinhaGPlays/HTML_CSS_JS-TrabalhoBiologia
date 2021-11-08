@@ -20,9 +20,10 @@ body{
 }
 
 .squares li {
-    background-color: rgba(75, 75, 255, 0.15);
+    background-color: rgba(75, 75, 255, 0.50);
     border-radius: 100%;
+    box-shadow: 0 0 10px rgba(150, 255, 255, 1);
     display: block;
     position: absolute;
-    animation: up ease-in-out infinite alternate;
+    animation: up ease-in-out infinite;
 }
