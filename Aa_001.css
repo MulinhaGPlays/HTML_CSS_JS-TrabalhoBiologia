@@ -5,7 +5,7 @@
 
 
 body{
-    background-image: radial-gradient(rgb(150, 255, 255), rgb(100, 255, 255));
+    background-image: radial-gradient(rgb(180, 255, 255), rgb(100, 255, 255));
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -19,7 +19,7 @@ body{
     height: 100%;
 }
 
-.squares li {
+.squares li, mli {
     background-color: rgba(75, 75, 255, 0.50);
     border-radius: 100%;
     display: block;
@@ -28,7 +28,7 @@ body{
 }
 
 .squares sn {
-    background-color: rgba(0, 255, 0, 0.50);
+    background-color: rgba(0, 255, 0, 1);
     border-radius: 100%;
     display: block;
     position: absolute;
@@ -36,7 +36,7 @@ body{
 }
 
 .squares sd {
-    background-color: rgba(255, 0, 255, 0.50);
+    background-color: rgba(247, 78, 247, 1);
     border-radius: 100%;
     display: block;
     position: absolute;
@@ -44,7 +44,7 @@ body{
 }
 
 .squares se {
-    background-color: rgba(255, 0, 0, 0.50);
+    background-color: rgba(255, 0, 0, 1);
     border-radius: 100%;
     display: block;
     position: absolute;
@@ -52,7 +52,7 @@ body{
 }
 
 .squares sc {
-    background-color: rgba(255, 255, 0, 0.50);
+    background-color: rgba(255, 255, 0, 1);
     border-radius: 100%;
     display: block;
     position: absolute;
@@ -60,9 +60,20 @@ body{
 }
 
 .squares sen {
-    background-color: rgba(255, 100, 0, 0.50);
+    background-color: rgba(255, 100, 0, 1);
     border-radius: 100%;
     display: block;
     position: absolute;
     animation: up ease-in-out infinite;
+}
+
+sn:hover, sd:hover, se:hover, sc:hover, sen:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.txt1, .txt2, .txt3, .txt4, .txt5 {
+    font-size: 18px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
