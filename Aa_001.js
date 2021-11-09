@@ -1,7 +1,6 @@
+const size = 120;
 const ulSquares = document.querySelector("ul.squares");
 const random = (min, max) => Math.random() * (max - min) + min;
-
-
 for (let i = 0; i < 150; i++) {
   const li = document.createElement("li");
 
@@ -48,10 +47,9 @@ for (let i = 0; i < 150; i++) {
 
 for (let i = 0; i < 2; i++) {
   const sn = document.createElement("sn");
-  sn.innerHTML = "<div class='txt1'>Sistema Nervoso</div>"
+  sn.innerHTML = "<h2 class='txt1'>Sistema Nervoso</h2>"
 
-  const size = Math.floor(random(120, 160));
-  const position = random(-5, 100);
+  const position = random(5, 95);
   const delay = random(5, 0.1);
   const duration = random(24, 12);
 
@@ -71,10 +69,9 @@ for (let i = 0; i < 2; i++) {
 
 for (let i = 0; i < 2; i++) {
     const sd = document.createElement("sd");
-    sd.innerHTML = "<div class='txt2'>Sistema Digestório</div>"
+    sd.innerHTML = "<h2 class='txt2'>Sistema Digestório</h2>"
   
-    const size = Math.floor(random(120, 160));
-    const position = random(-5, 100);
+    const position = random(5, 95);
     const delay = random(5, 0.1);
     const duration = random(24, 12);
   
@@ -94,10 +91,9 @@ for (let i = 0; i < 2; i++) {
 
   for (let i = 0; i < 2; i++) {
     const se = document.createElement("se");
-    se.innerHTML = "<div class='txt3'>Sistema Excretor</div>"
+    se.innerHTML = "<h2 class='txt3'>Sistema Excretor</h2>"
   
-    const size = Math.floor(random(120, 160));
-    const position = random(-5, 100);
+    const position = random(5, 95);
     const delay = random(5, 0.1);
     const duration = random(24, 12);
   
@@ -117,10 +113,9 @@ for (let i = 0; i < 2; i++) {
 
   for (let i = 0; i < 2; i++) {
     const sc = document.createElement("sc");
-    sc.innerHTML = "<div class='txt4'>Sistema Cardiovascular</div>"
+    sc.innerHTML = "<h2 class='txt4'>Sistema Cardiovascular</h2>"
   
-    const size = Math.floor(random(120, 160));
-    const position = random(-5, 100);
+    const position = random(5, 95);
     const delay = random(5, 0.1);
     const duration = random(24, 12);
   
@@ -140,10 +135,9 @@ for (let i = 0; i < 2; i++) {
 
   for (let i = 0; i < 2; i++) {
     const sen = document.createElement("sen");
-    sen.innerHTML = "<div class='txt5'>Sistema Endocrino</div>"
+    sen.innerHTML = "<h2 class='txt5'>Sistema Endocrino</h2>"
   
-    const size = Math.floor(random(120, 160));
-    const position = random(-5, 100);
+    const position = random(5, 95);
     const delay = random(5, 0.1);
     const duration = random(24, 12);
   

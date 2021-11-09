@@ -72,8 +72,17 @@ sn:hover, sd:hover, se:hover, sc:hover, sen:hover {
     cursor: pointer;
 }
 
+sn:active, sd:active, se:active, sc:active, sen:active {
+    transform: scale(1);
+    cursor: pointer;
+}
+
 .txt1, .txt2, .txt3, .txt4, .txt5 {
-    font-size: 18px;
-    font-style: italic;
+    font-size: 15px;
+    font-style: oblique;
+    word-break: break-word;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    margin-top: 35%;
 }
