@@ -11,11 +11,11 @@ btn_play.addEventListener("click", (event) => {
 form_lyt2.addEventListener("click", (event) => {
   event.preventDefault();
   if (VAR_1 == 0) {
-    form_lyt2.style.transition = "all 1s ease";
-    form_lyt2.style.transform = "scale(1.5) translateX(-20rem)";
+    form_lyt2.style.transition = "all 0.5s ease";
+    form_lyt2.style.transform = "scale(1.5) translateX(-110%)";
     Number(VAR_1 = VAR_1 + 1);
   } else {
-    form_lyt2.style.transition = "all 1s ease";
+    form_lyt2.style.transition = "all 0.5.s ease";
     form_lyt2.style.transform = "scale(1) translateX(0)";
     Number(VAR_1 = VAR_1 - 1);
   }
@@ -24,11 +24,11 @@ form_lyt2.addEventListener("click", (event) => {
 form_lyt3.addEventListener("click", (event) => {
   event.preventDefault();
   if (VAR_1 == 0) {
-    form_lyt3.style.transition = "all 1s ease";
-    form_lyt3.style.transform = "scale(1.5) translateX(20rem) translateY(-7rem)";
+    form_lyt3.style.transition = "all 0.5s ease";
+    form_lyt3.style.transform = "scale(1.5) translateX(108%) translateY(-40%)";
     Number(VAR_1 = VAR_1 + 1);
   } else {
-    form_lyt3.style.transition = "all 1s ease";
+    form_lyt3.style.transition = "all 0.5s ease";
     form_lyt3.style.transform = "scale(1) translateX(0)";
     Number(VAR_1 = VAR_1 - 1);
   }

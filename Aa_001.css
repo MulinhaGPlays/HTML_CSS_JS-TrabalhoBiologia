@@ -131,32 +131,24 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.form_lyt-2:hover {
+.form_lyt-1:hover, .form_lyt-2:hover, .form_lyt-3:hover {
     cursor: pointer;
 }
 
-.form_lyt-3:hover {
-    cursor: pointer;
+.img_1, .img_2 {
+    height: 100%;
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .img_1 {
-    height: 100%;
-    width: 100%;
-
     margin-top: 23%;
-
     background-image: url(sc_3.png);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .img_2 {
-    height: 100%;
-    width: 100%;
-
     margin-left: 8%;
-
     background-image: url(sc_1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
