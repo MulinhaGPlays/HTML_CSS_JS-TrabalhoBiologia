@@ -11,6 +11,29 @@
     }
 }
 
+@keyframes blur {
+    from {
+        filter: blur(0);
+    } to {
+        filter: blur(4px);
+    }
+}
+
+@keyframes unhidden {
+    0% {
+        width: 2%;
+        height: 2%;
+    }
+    50% {
+        width: 90%;
+        height: 2%;
+    }
+    100% {
+        width: 90%;
+        height: 90%;
+    }
+}
+
 @keyframes hover {
     from {
         transform: scale(1);
